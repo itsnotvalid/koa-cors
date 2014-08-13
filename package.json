@@ -4,7 +4,7 @@
   "description": "CORS middleware for Koa",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --harmony"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/evert0n/koa-cors",
   "devDependencies": {
-    "koa": "^0.6.1",
+    "koa": "^0.9.0",
     "chai": "^1.9.1",
     "mocha": "^1.19.0",
     "superagent": "^0.18.0"
